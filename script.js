@@ -9,22 +9,24 @@ const submitButton = document.getElementById('submit');
 
 let questions = [
   {
-    question: "Sample Question 1?",
-    choices: ["Choice A", "Choice B", "Choice C", "Choice D"],
-    answer: 1 // index of the correct answer in choices array
+    question: "What's the best Harry potter movie?",
+    choices: ["Prizoner of Azkaban", "Deathly Hallows Part 1", "Half Blood Prince", "Goblet of fire"],
+    answer: "Goblet of fire"
   },
-  // Add more questions here
-];
+  {
+    question: "Who is the best Character",
+    choices: ["Dobby!!!", "Harry Potter", "Snape", "Heromonie"],
+    answer: "Dobby!!!"
+  },
+]
 
 let currentQuestionIndex = 0;
-let timeLeft = 60; // starting time
+let timeLeft = 60; 
 
 function startQuiz() {
-  // Logic to start the quiz
 }
 
 function displayQuestion() {
-  // Logic to display questions
 }
 
 function checkAnswer() {
@@ -32,9 +34,4 @@ function checkAnswer() {
 }
 
 function endQuiz() {
-  // Logic to end the quiz
 }
-
-startButton.addEventListener('click', startQuiz);
-submitButton.addEventListener('click', endQuiz);
-choicesContainer.addEventListener('click', checkAnswer);
