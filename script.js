@@ -21,17 +21,18 @@ let questions = [
 ]
 
 let currentQuestionIndex = 0;
-let timeLeft = 60; 
+let timeLeft = 60; // starting time
 
 function startQuiz() {
-}
+} // to start the quiz
 
 function displayQuestion() {
-}
+}// to display questions
+
 
 function checkAnswer() {
   // Logic to check the selected answer
 }
 
 function endQuiz() {
-}
+} // to end the quiz
