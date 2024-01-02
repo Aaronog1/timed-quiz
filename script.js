@@ -36,3 +36,7 @@ function checkAnswer() {
 
 function endQuiz() {
 } // to end the quiz
+
+startButton.addEventListener('click', startQuiz);
+submitButton.addEventListener('click', endQuiz);
+choicesContainer.addEventListener('click', checkAnswer);
